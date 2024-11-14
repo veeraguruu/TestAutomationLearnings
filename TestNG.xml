@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TESTSUITE" verbose="2" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="org.example.TestNGListenerExample"/>
+    </listeners>
+    <test name="TEST">
+        <!--        <parameter name="Name" value="Duck"/>-->
+        <classes>
+            <class name="org.example.TestNGParallelTesting"/>
+            <!--            <class name="org.example.TestNGLearning"/>-->
+        </classes>
+    </test>
+</suite>
+
+
+        <!--<groups>-->
+        <!--<run>-->
+        <!--    <include name="moto"/>-->
+        <!--    &lt;!&ndash;            <exclude name="apple"/>&ndash;&gt;-->
+        <!--</run>-->
+        <!--</groups>-->
